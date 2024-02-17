@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="header">
+        <div class="title">Form Builder</div>
+        <button id="save">save</button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="sidebar">
+        <div class="sidebar-title">Components</div>
+        <div class="sidebar-content">
+          <button class="sidebar-btn" id="add-input">
+            <span>Input</span><span>+</span>
+          </button>
+          <button class="sidebar-btn" id="add-select">
+            <span>Select</span><span>+</span>
+          </button>
+          <button class="sidebar-btn" id="add-textarea">
+            <span>Textarea</span><span>+</span>
+          </button>
+        </div>
+      </div>
+      <div class="form-container">
+        <div class="form">
+          <ul id="form-items">
+            <li>
+              <div class="form-item">
+                <div class="form-item-label-container">
+                    <label class="form-item-label">Sample Label</label>
+                    <button class="form-item-del">Delete</button>
+                </div>
+                <input class="form-item-element"></input>
+
+              </div>
+            </li>
+            <li>
+                <div class="form-item">
+                  <div class="form-item-label-container">
+                      <label class="form-item-label">Sample Label</label>
+                      <button class="form-item-del">Delete</button>
+                  </div>
+                 <select class="form-item-element">
+                    <option>Sample Option 1</option>
+                    <option>Sample Option 2</option>
+                 </select>
+  
+                </div>
+              </li>
+              <li>
+                <div class="form-item">
+                  <div class="form-item-label-container">
+                      <label class="form-item-label">Sample Label</label>
+                      <button class="form-item-del">Delete</button>
+                  </div>
+                  <textarea class="form-item-element"></textarea>
+  
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
